@@ -167,7 +167,7 @@ public class SimpleSlickGame extends BasicGame {
 			if(cnt%200==50||cnt%200==70||cnt%200==90||cnt%200==110){
 				UFO _ufo = new UFO(this, reX, -52, 2, 0, uniqueId++);
 				_ufo.degree = 180;
-				_ufo.speed = 2.5f;
+				_ufo.speed = 2.7f;
 				objList.add(_ufo);
 			}
 		}
